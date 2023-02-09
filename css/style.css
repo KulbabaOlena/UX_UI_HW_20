@@ -1,0 +1,177 @@
+inline-block {
+	font-size: 22px;
+	
+}
+  
+.nav {
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.header {
+	font-family: Cannu;
+	background-repeat: no-repeat;
+	background-image: url("../images/aboutme.png");
+}
+  
+h2 {
+    text-align: center;
+    color: rgba(106, 56, 79, 0.842);
+    font-family: Poppins;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	margin: 2%
+}
+
+.centered {
+	position: absolute;
+	top: 11%;
+	left: 50%;
+	padding: 40px;
+	font-family: Poppins;
+}
+
+.aboutme {
+	padding: 30px;
+	margin: 30px;
+	background-image: url("../images/aboutme.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+h3 {
+	text-align: center;
+	font-family: Poppins;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-family: Poppins;
+}
+
+p {
+	font-family: Poppins;
+	background-repeat: no-repeat;
+	background-size: auto;
+	font-size: 16px;
+}
+
+button {
+	font-family: Poppins;
+    color: rgba(106, 56, 79, 0.842);
+    margin-left: 3%;
+	margin-top: 30px;
+	height: 80px;
+	width: 250px;
+	border-radius: 50px;
+	border-color: white;
+}
+
+li {
+  font-family: Poppins;
+}
+
+.textcols {
+	display: flex;
+	height: 500px;
+	flex-wrap: wrap;
+	background-image: url("../images/Skills background.png");
+	background-size: 60% auto;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+	width: 120%;
+	padding: 3% 40px;
+}
+
+.textcols-item {
+	display:flex;
+	flex-direction: column;
+	flex-basis: 1;
+	height: 30%;
+}
+
+.textcols-item + .textcols-item {
+    margin-left: 5%;
+}
+
+header li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 30px;
+    font-size: 30px;
+    font-family: Cannu;
+    color: brown;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 50px;
+	padding: 30px 50px;
+	margin-top: 50px;
+	background-color: rgba(157, 103, 128, 0.842);
+	color: rgb(255, 255, 255);
+}
+
+#aboutMe-image	{
+	width: 100%;
+	background-size: auto 100%;
+}
+
+.arttherapy{
+	display:flex;
+justify-content: center;
+margin: 100px;
+}
+
+.step1 {
+	display: flex;
+	align-items: center;
+	justify-content: center
+  }
+.step2 {
+	display: flex;
+	align-items: center;
+	justify-content: center
+  }
+  
+  img {
+	max-width: 100%
+  }
+  
+  .image {
+	flex-basis: 40%
+	
+  }
+  
+  .text {
+	font-size: 40px;
+	padding-left: 20px;
+	font-family: Poppins;
+	color: rgb(139, 28, 85);
+  }
+  
+  .heroImage{
+	font-size: 40px;
+  }
+  .row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 33.33%;
+	padding: 5px;
+  }
+
+  .hands{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
