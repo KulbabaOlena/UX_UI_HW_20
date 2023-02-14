@@ -20,10 +20,11 @@ h2 {
     text-align: center;
     color: rgba(106, 56, 79, 0.842);
     font-family: Poppins;
+	padding: 5px;
 }
 
 .container {
-	position: relative;
+Redesign a website for a nonprofit organization and execute the user experience (UX)/user interface (UI) design process to create a high-fidelity responsive web design (RWD) solution through a clickable UI prototype.
 	text-align: center;
 	margin: 2%
 }
@@ -54,7 +55,10 @@ h3 {
 h4 {
 	font-family: Poppins;
 }
-
+h5{
+	font-family: Poppins;
+	color: rgb(179, 124, 152);
+	}
 p {
 	font-family: Poppins;
 	background-repeat: no-repeat;
@@ -74,7 +78,8 @@ button {
 }
 
 li {
-  font-family: Poppins;
+  font-family: Cannu;
+  
 }
 
 .textcols {
@@ -175,3 +180,78 @@ margin: 100px;
   margin-right: auto;
   width: 50%;
   }
+
+
+
+  .card-footer{
+position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.smallimg {
+    width: 150px; 
+    height: 150px;
+}
+
+.catCard{
+    margin-bottom: 50px; /* height of the footer or more */
+}
+
+.card-body{
+display: block;  
+margin-left: auto; 
+text-align: center; 
+margin-right: 10px;  
+padding: 50px;  
+}  
+.card-title{
+padding: 15px;
+}
+
+#myBtn {
+	display: list-item; /* Hidden by default */
+	position: ; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: rgb(191, 122, 176); /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 40px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  .scroll-target {
+	color: white;}
+
+
+	label {
+		color: #333;
+	}
+	
+	.btn-send {
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		width: 80%;
+		margin-left: 3px;
+		}
+	.help-block.with-errors {
+		color: #ff5050;
+		margin-top: 5px;
+	
+	}
+	
+	.card{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	

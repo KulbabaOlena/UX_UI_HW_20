@@ -1,13 +1,49 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="js/index.js"></script>
-	</head>
-	<body>
+<!doctype html>
+	<html lang="en">
+       <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>UI/UX Homework 20</title>
+		    <link rel="stylesheet" type="text/css" href="css/style.css">
+		    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      		<script src="js/index.js"></script>
+	        
+		</head>
+	
+	
+		<body>
+			 <!---<h1>Hello, world!</h1>--->
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+             <script src="js/index.js"></script>
 		<header>
-			<div class="nav">
+
+			<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">About Me</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Case Studies</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Resume</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Behance</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Dribble</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/olena-kulbaba-407493161">LinkedIn</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact Me</a>
+  </li>
+  
+  </ul>
+			<!---<div class="nav">
 				<div class="inline-block">
 					<ul>
 						<li><a href="#">About Me</a></li>
@@ -19,20 +55,84 @@
 						<li><a href="#">Contact Me</a></li>
 					</ul>
 				</div>
-			</div>
+			</div>"--->
+
+			<!---<div class="jumbotron">
+				<h1 class="display-4">Hello, world!</h1>
+				<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+				<hr class="my-4">
+				<img src="images/HeroImage.png" alt="Olena Kulbaba, UI/UX Designer " style="width:100%" >
+				<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+				<p class="lead">
+				  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+				</p>
+			  </div>--->
+
+  
 		</header>
 		<section>
 			<div class="heroImage">
-				<img src="images/HeroImage.png" alt="Olena Kulbaba, UI/UX Designer " style="width:100%">
-				<h2>Drawchange.org<br>
-                non profit redesign</h2>
+				<img src="images/HeroImage.png" alt="Olena Kulbaba, UI/UX Designer " style="width:100%" >
+				<h2>MY WORK</h2>
 			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<div id = "drawchange">
+						  <img src="images/Casestudy1.png" style="width: 40%" class="card-img-top" alt="Casestudy1" >
+					     </div>
+					  <h5 class="card-title">Drawchange.org 
+						non profit redesign</h5>
+					  <p class="card-text">Redesign website's elements and flows using data driven ideas to create a website that is more functional and trustworthy to generate more volunteers and donors.
+					</p>
+					  <a href="#scroll-target" class="btn btn-primary scrollFunction1()">View Case Study</a>
+					  
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<img src="images/Casestudy2.png" style="width: 40%" class="card-img-top" alt="Casestudy1">
+					  <h5 class="card-title">Department of Homeland 
+						Security Redesign</h5>
+					  <p class="card-text">Redesign government website in order to improve user experience through better information arvhitecture and more responsive UI					</p>
+					  <a href="#" class="btn btn-primary">View Case Study</a>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+					  <div class="card-body">
+						<img src="images/Casestudy3.png" style="width: 40%" class="card-img-top" alt="Casestudy1">
+						<h5 class="card-title">Locals</h5>
+						<p class="card-text">Travel App that connects travelers with locals in country of visit that speak their language and eager to assist with trip planning, being a guide and driver providing own car</p>
+						<a href="#" class="btn btn-primary">View Case Study</a>
+					  </div>
+					</div>
+				  </div>
+			  </div>
+
+			  <br>
+			  <br>
+			  <br>
+			  <div id="scroll-target">
+				<h2>Drawchange.org 
+					<br>non profit redesign</h2> 
+			</div>
+
 			<div class="arttherapy">
 				<img src="images/arttherapy.jpg" style="width: 60%";>
             </div>
 		</section>
 		<br>
+		
 
+		<br>
+      <br>
+      <br>
 		<div class="row">
 			<div class="column">
                  <img src="images/Casestudy1.png" alt="Case study 1">
@@ -48,21 +148,37 @@
 			     <img src="images/drawchain4.png" alt="Case study 1">
 			</div>
 		</div>
+
+
+		<div class="list-group">
+			<a href="#background" class="list-group-item list-group-item-action scrollFunction1()">BACKGROUND</a>
+			<a href="#theproblem" class="list-group-item list-group-item-action scrollFunction1()">THE PROBLEM</a>
+			<a href="#thesolution" class="list-group-item list-group-item-action scrollFunction1()">THE SOLUTION</a>
+			<a href="#research" class="list-group-item list-group-item-action scrollFunction1()">RESERACH</a>
+			<a href="#ideation" class="list-group-item list-group-item-action scrollFunction1()">IDEATION</a>
+			<a href="#prototyping" class="list-group-item list-group-item-action scrollFunction1()">PROTOTYPING</a>
+			<a href="#evaluation" class="list-group-item list-group-item-action scrollFunction1()">EVALUATION</a>
+			
+		  </div>
 		
 		<section>
 			<div class="background">
-				<hr>
+				<div id="background">
+								<hr>
 				<h3>BACKGROUND</h3>
+				</div
 				<div style="text-align: right;"><img src="images/background.png" alt="Background" style="width:80">
 			</div>
 			<div class="theproblem">
+				<div id="theproblem">
 				<hr>
-				<h3>THE PROBLEM</h3>
+				<h3>THE PROBLEM</h3></div>
 				<div style="text-align: left;"><img src="images/theproblem.png" alt="theproblem" style="width:80">
 			</div>
 			<div class="thesolution">
+				<div id="thesolution">
 				<hr>
-				<h3>THE SOLUTION</h3>
+				<h3>THE SOLUTION</h3></div>
 				<div style="text-align: right;"><img src="images/thesolution.png" alt="thesolution" style="width:80">
 			</div>
 		</section> 
@@ -72,8 +188,10 @@
 	
 		    <div class="step1">
 			    <div class="text"> 
+				   <div id="research"
 				<h1>RESERACH</h1>	
-				</div>
+				    </div>
+				</div>	
 			    <div class="image">
 			    <img src="images/step1.jpg"  align="right">
 			    </div>
@@ -88,8 +206,10 @@
 			     <div class="image">
 				 <img src="images/step2.jpg"  align="left">
 				 </div>
-			     <div class="text"> 
-				 <h1>IDEATION</h1>	
+			     <div class="text">
+					 <div id="ideation"
+				 <h1>IDEATION</h1>
+				     </div>	
 				 </div>
 			</div>
 			
@@ -98,7 +218,9 @@
 			
 			<div class="step1">
 			    <div class="text"> 
-				<h1>PROTOTYPING</h1>	
+					 <div id="prototyping"
+				<h1>PROTOTYPING</h1>
+			        </div>
 				</div>
 			    <div class="image">
 			    <img src="images/step3.jpg"  align="right">
@@ -111,33 +233,117 @@
 		 <br>
 		 <img src="images/mockup.png">
 
-		
-	
-             <div class="step2">
-			     <div class="image">
-				 <img src="images/step4.jpg"  align="left">
-				 </div>
-			     <div class="text"> 
-				 <h1>EVALUATION</h1>	
-				 </div>
+		 
+		 
+		 <div class="step2">
+			<div class="image">
+			<img src="images/step4.jpg"  align="left">
 			</div>
+			<div class="text"> 
+				 <div id="evaluation"
+				 <h1>EVALUATION</h1>	
+			     </div>
+			</div>
+	   </div>
 			
 			<p>The new look of the web site was more eye-appealing, easier and more intuitive to naviagate; people could faster find needed information, maximizing chances of making a donations or volunteer, which was our main goal. The trust to the website and organization in general dramasticaly increased since we solve all the pain points of our users- focusing on financial transarancy, making the layout of financial informaion more accesible, comprehensible and easier to find; showing the impact of donation/vounteer work for people better understand the difference they make, feeling more involved, building loyalty to the organization.</p>
 			<div class="hands">
 			<img src="images/hands.jpg"style="width:800px">
-		    </div>		
+		    </div>	
 			
-		
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button> 
+			<section class="mb-4">
 
-
-		<footer>
-			<div class="footer">
-				<a href="https://www.facebook.com/olena.kulbaba"><img src="images/facebook.png" alt="Facebook" style="width:20%">
-				<a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram" style="width:20%">
-				<a href="https://twitter.com/home"><img src="images/twitter.png" alt="Twitter" style="width:20%"></a>
-				<p>Olena Kulbaba © 2023</p>
-				<p>Email:olenakulbaba@gmail.com</p>
+				<div class="container">
+					<div class=" text-center mt-5 ">
+			
+						<h1 >Don't Be Shy! Say Hello:)</h1>
+							
+						
+					</div>
+			
+				
+				<div class="row ">
+				  <div class="col-lg-7 mx-auto">
+					<div class="card mt-2 mx-auto p-4 bg-light">
+						<div class="card-body bg-light">
+				   
+						<div class = "container">
+										 <form id="contact-form" role="form">
+			
+						
+			
+						<div class="controls">
+			
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="form_name">Firstname *</label>
+										<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+										
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="form_lastname">Lastname *</label>
+										<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+																		</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="form_email">Email *</label>
+										<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+										
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="form_need">Please specify your need *</label>
+										<select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+											<option value="" selected disabled>--Select Your Issue--</option>
+											<option >Lets cooperate! </option>
+											<option >Job offer</option>
+											<option >Other</option>
+										</select>
+										
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="form-group">
+										<label for="form_message">Message *</label>
+										<textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea
+											>
+										</div>
+			
+									</div>
+			
+			
+								<div class="col-md-12">
+									
+									<input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+										" value="Send Message" >
+								
+							</div>
+					  
+							</div>
+			
+			
+					</div>
+					 </form>
+					</div>
+						</div>
+			
+			
+				</div>
+					<!-- /.8 -->
+			
+				</div>
+				<!-- /.row-->
+			
 			</div>
-		</footer>
-	</body>
-</html>
+			</div>
+			
