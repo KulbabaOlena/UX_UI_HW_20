@@ -23,10 +23,11 @@ h2 {
 	padding: 5px;
 }
 
-.container {
-Redesign a website for a nonprofit organization and execute the user experience (UX)/user interface (UI) design process to create a high-fidelity responsive web design (RWD) solution through a clickable UI prototype.
-	text-align: center;
-	margin: 2%
+.center{
+	display:block;
+	margin-left: auto;
+	margin-right:auto ;
+	width:50%;
 }
 
 .centered {
@@ -44,7 +45,9 @@ Redesign a website for a nonprofit organization and execute the user experience 
 	background-repeat: no-repeat;
 	background-size: auto;
 }
-
+h2{
+	padding: 3%
+}
 h3 {
 	text-align: center;
 	font-family: Poppins;
@@ -57,7 +60,6 @@ h4 {
 }
 h5{
 	font-family: Poppins;
-	color: rgb(179, 124, 152);
 	}
 p {
 	font-family: Poppins;
@@ -65,7 +67,11 @@ p {
 	background-size: auto;
 	font-size: 16px;
 }
-
+#steps {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 3%
+}
 button {
 	font-family: Poppins;
     color: rgba(106, 56, 79, 0.842);
@@ -151,9 +157,8 @@ margin: 100px;
   }
   
   .image {
-	flex-basis: 40%
-	
-  }
+	flex-basis: 20%
+	  }
   
   .text {
 	font-size: 40px;
@@ -207,11 +212,14 @@ padding: 50px;
 }  
 .card-title{
 padding: 15px;
+font-size: 30px;
+color: rgb(139, 28, 85);
+
 }
 
 #myBtn {
 	display: list-item; /* Hidden by default */
-	position: ; /* Fixed/sticky position */
+	position:  /* Fixed/sticky position */
 	bottom: 20px; /* Place the button at the bottom of the page */
 	right: 30px; /* Place the button 30px from the right */
 	z-index: 99; /* Make sure it does not overlap */
@@ -229,29 +237,38 @@ padding: 15px;
 	background-color: #555; /* Add a dark-grey background on hover */
   }
 
+
   .scroll-target {
 	color: white;}
 
-
-	label {
-		color: #333;
-	}
+	.scroll-target {
+		color: white;}
 	
-	.btn-send {
-		font-weight: 300;
-		text-transform: uppercase;
-		letter-spacing: 0.2em;
-		width: 80%;
-		margin-left: 3px;
+	
+		label {
+			color: #333;
 		}
-	.help-block.with-errors {
-		color: #ff5050;
-		margin-top: 5px;
+		
+		.btn-send {
+			font-weight: 300;
+			text-transform: uppercase;
+			letter-spacing: 0.2em;
+			width: 80%;
+			margin-left: 3px;
+			}
+		.help-block.with-errors {
+			color: #ff5050;
+			margin-top: 5px;
+		
+		}
+		
+		.card{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		
 	
-	}
 	
-	.card{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
+	
+	
 	

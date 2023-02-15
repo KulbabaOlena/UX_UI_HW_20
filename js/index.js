@@ -49,3 +49,6 @@ function scrollFunction1() {
 	});
   }
   
+  $('#myCollapsible').collapse({
+	toggle: false
+  })
